@@ -10,6 +10,13 @@ $(document).ready(function(){
       $("#carousel-button").children("span").removeClass("fa-play");
       $("#carousel-button").children("span").addClass("fa-pause");
     }
+  });
 
+  $("#login-button").click(function(){
+      $("#loginmodal").modal('toggle');
+  });
+
+  $("#reserve-table-button").click(function(){
+      $("#reservemodal").modal('toggle');
   });
 });
